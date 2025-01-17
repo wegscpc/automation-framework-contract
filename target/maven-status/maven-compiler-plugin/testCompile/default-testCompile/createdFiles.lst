@@ -1,0 +1,5 @@
+com\toolshop\base\BaseContractTest.class
+com\toolshop\config\TestConfig.class
+com\toolshop\builder\BrandTestDataBuilder.class
+com\toolshop\consumer\BrandConsumerPactTest.class
+com\toolshop\provider\BrandProviderPactTest.class

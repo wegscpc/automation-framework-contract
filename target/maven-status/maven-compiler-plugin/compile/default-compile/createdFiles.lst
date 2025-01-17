@@ -1,0 +1,3 @@
+com\toolshop\dto\BrandDto.class
+com\toolshop\client\BrandApiClient.class
+com\toolshop\dto\BrandDto$BrandDtoBuilder.class

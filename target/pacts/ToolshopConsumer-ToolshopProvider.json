@@ -1,0 +1,58 @@
+{
+  "consumer": {
+    "name": "ToolshopConsumer"
+  },
+  "interactions": [
+    {
+      "description": "a request for all brands",
+      "key": "9ed460f3",
+      "pending": false,
+      "providerStates": [
+        {
+          "name": "brands exist"
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "path": "/brands"
+      },
+      "response": {
+        "body": {
+          "content": [
+            {
+              "id": "01JHTKACQV2ENDEGXJ4XQGWNVM",
+              "name": "ForgeFlex Tools",
+              "slug": "forgeflex-tools"
+            },
+            {
+              "id": "01JHTKACQV2ENDEGXJ4XQGWNVN",
+              "name": "MightyCraft Hardware",
+              "slug": "mightycraft-hardware"
+            }
+          ],
+          "contentType": "application/json",
+          "encoded": false
+        },
+        "headers": {
+          "Content-Type": [
+            "application/json"
+          ]
+        },
+        "status": 200
+      },
+      "transport": "https",
+      "type": "Synchronous/HTTP"
+    }
+  ],
+  "metadata": {
+    "pact-jvm": {
+      "version": "4.5.7"
+    },
+    "pactSpecification": {
+      "version": "4.0"
+    }
+  },
+  "provider": {
+    "name": "ToolshopProvider"
+  }
+}
